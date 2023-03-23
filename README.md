@@ -24,7 +24,7 @@ conda activate @ENV_NAME
 For example:
 
 ```
-conda create --name swaa python=3.7
+conda create --name swaa python=3.10
 conda activate swaa
 ```
 
