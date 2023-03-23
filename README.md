@@ -17,7 +17,7 @@ These instructions assume you have already installed Anaconda. An Anaconda distr
 Open the Anaconda Prompt command line interface. Install a virtual environment using Anaconda and activate it (replace @ENV_NAME with the name of your virtual environment):
 
 ```
-conda create --name @ENV_NAME python=3.7
+conda create --name @ENV_NAME python=3.10
 conda activate @ENV_NAME
 ```
 
