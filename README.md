@@ -14,25 +14,11 @@ Instructions on how to clone a repository from GitHub are available [here](https
 
 These instructions assume you have already installed Anaconda. An Anaconda distribution can be downloaded [here.]( https://www.anaconda.com/products/distribution)
 
-Open the Anaconda Prompt command line interface. Install a virtual environment using Anaconda and activate it (replace @ENV_NAME with the name of your virtual environment):
+Open the Anaconda Prompt command line interface. Install a virtual environment using the .yaml file and activate it.
 
 ```
-conda create --name @ENV_NAME python=3.10
-conda activate @ENV_NAME
-```
-
-For example:
-
-```
-conda create --name swaa python=3.10
-conda activate swaa
-```
-
-Import dependencies via requirements.txt (replace @DIRECTORY with the location of your cloned repo from step 1):
-
-```
-cd @DIRECTORY
-pip install -r requirements.txt
+conda env create -f environment.yaml
+conda activate swaa 
 ```
 
 #### 3. Download the latest data 
