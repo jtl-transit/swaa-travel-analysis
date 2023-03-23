@@ -57,7 +57,7 @@ fig.tight_layout();
 ![image](https://user-images.githubusercontent.com/56656229/227348555-879205c3-0a9e-4378-b5f7-807c9aba65c8.png)
 
 
-The helper functions can be grouped into different categories as follows.
+The helper functions can be grouped into different categories as follows. Note that there are many more functions than those described below.
 
 **Filtering and processing**
 - `filter_df()`: Filters the entire dataset to high-quality responses only and to a specific set of questions relevant for travel. Also sets the scale column.
