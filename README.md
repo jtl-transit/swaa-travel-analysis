@@ -14,10 +14,10 @@ Instructions on how to clone a repository from GitHub are available [here](https
 
 These instructions assume you have already installed Anaconda. An Anaconda distribution can be downloaded [here.]( https://www.anaconda.com/products/distribution)
 
-Open the Anaconda Prompt command line interface. Install a virtual environment using the .yaml file and activate it.
+Open the Anaconda Prompt command line interface. Install a virtual environment using the .yml file and activate it.
 
 ```
-conda env create -f environment.yaml
+conda env create -f environment.yml
 conda activate swaa 
 ```
 
