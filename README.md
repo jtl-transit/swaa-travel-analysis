@@ -93,7 +93,6 @@ The helper functions can be grouped into different categories as follows. Note t
 **Filtering and processing**
 - `filter_df()`: Filters the entire dataset to high-quality responses only and to a specific set of questions relevant for travel. Also sets the scale column.
 - `create_columns()`: Creates several new helpful columns for travel data analysis.
-- `date_filter()`: Filters dataframe to a specific date range.
 
 **Create or adjust columns**
 - `bin_column()`: Assign values in a quantitative column into bins. 
