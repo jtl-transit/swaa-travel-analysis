@@ -2,13 +2,44 @@
 
 This repository contains a range of Python tools for analyzing and visualizing travel data from the [Survey of Workplace Arrangements and Attitudes](https://wfhresearch.com/). 
 
-### Usage
+## Installation
 
 There are three steps to set up this workflow on a local machine:
 
-1. Clone this repository. 
-2. Set up a virtual environment and install dependencies.
-3. Download the latest data from [wfhresearch.com](https://wfhresearch.com/) and save it in the `Data/` folder.
+#### 1. Clone this repository. 
+
+Instructions on how to clone a repository from GitHub are available [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+#### 2. Set up a virtual environment and install dependencies.
+
+These instructions assume you have already installed Anaconda. An Anaconda distribution can be downloaded [here.]( https://www.anaconda.com/products/distribution)
+
+Open the Anaconda Prompt command line interface. Install a virtual environment using Anaconda and activate it (replace @ENV_NAME with the name of your virtual environment):
+
+```
+conda create --name @ENV_NAME python=3.7
+conda activate @ENV_NAME
+```
+
+For example:
+
+```
+conda create --name swaa python=3.7
+conda activate swaa
+```
+
+Import dependencies via requirements.txt (replace @DIRECTORY with the location of your cloned repo from step 1):
+
+```
+cd @DIRECTORY
+pip install -r requirements.txt
+```
+
+#### 3. Download the latest data 
+
+Sign up for free access to the latest SWAA data at [wfhresearch.com](https://wfhresearch.com/). Once you have downloaded the latest data (e.g. `WFHdata_January23.csv`), then save it in the `Data/` folder as `data.csv`.
+
+## Usage
 
 Once completed, you can create your own Python script, import the helper functions and explore the data however you like. A large Jupyter notebook containing examples of how to use the helper functions to import, filter, modify and plot survey data is provided in the `Code/` folder. 
 
